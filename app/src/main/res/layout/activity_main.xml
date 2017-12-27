@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical"
+    tools:context="com.srinu.vectordrawable.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/material_icon"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/ic_man_cycle" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/svg_file_icon"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/ic_android_robot" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dynamic_icon"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imagePragmatically"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
